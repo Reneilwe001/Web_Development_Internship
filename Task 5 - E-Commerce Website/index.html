@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ARÉNIA | Beauty & Skincare</title>
+    </head>
+    <body>
+        <header>
+            <a href="#home" class="logo">ARÉNIA</a>
+
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <div class="hero-content">
+                    <h1>Essential Care for Every Day</h1>
+                    <p>
+                        Discover skincare essentials designed to nourish, hydrate and protect your skin.
+                        Simple routines, thoughtful ingredients and everyday care.
+                    </p>
+                    <a href="#shop" class="shop-button">Explore ARÉNIA</a>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about-content">
+                    <h2>About ARÉNIA</h2>
+
+                    <h3>Beauty Begins With Care</h3>
+
+                    <p>
+                        At ARÉNIA, we believe that healthy-looking skin starts
+                        with thoughtful care. Our skincare collection brings
+                        together everyday essentials designed to support a
+                        simple and enjoyable skincare routine.
+                    </p>
+
+                    <p>
+                        From gentle cleansing and daily hydration to brightening
+                        and sun protection, we're here to make every skincare
+                        moment special.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/Arenia Skincare Collection.jpg" alt="Arenia Skincare Collection">
+                </div>
+            </section>
+
+            <section class="categories">
+                <h2>Find Your Skincare Essentials</h2>
+
+                <div class="category-container">
+                    <div class="category">
+                        <img src="images/Cleansers.jpg" alt="Cleansers" class="category-image">
+                        <h3>Cleansers</h3>
+                        <p>Gentle cleansing for a fresh, comfortable feel.</p>
+                    </div>
+
+                    <div class="category">
+                        <img src="images/Moisturisers.jpg" alt="Moisturisers" class="category-image">
+                        <h3>Moisturisers</h3>
+                        <p>Everyday hydration to keep skin soft and nourished.</p>
+                    </div>
+
+                    <div class="category">
+                        <img src="images/Serums.jpg" alt="Serums" class="category-image">
+                        <h3>Serums</h3>
+                        <p>Targeted care for brighter, radiant-looking skin.</p>
+                    </div>
+
+                    <div class="category">
+                        <img src="images/Sun Protection.jpg" alt="Sun Protection" class="category-image"> 
+                        <h3>Sun Protection</h3>
+                        <p>Daily SPF protection to help protect your skin from UV rays.</p>  
+                    </div>
+                </div>
+            </section>
+
+            <section class="products" id="shop">
+                <h2>The ARÉNIA Collection</h2>
+                <p class="products-intro">Four foundational formulas designed to cleanse, replenish, brighten, and protect every day.</p>
+                <div class="product-container">
+
+                    <div class="product-card" data-id="1" data-name="Gentle Facial Cleanser" data-price="159.99">
+                        <img src="images/Gentle Facial Cleanser.jpg" alt="Gentle Facial Cleanser" class="product-image">
+                        <h3>Gentle Facial Cleanser</h3>
+                        <p class="product-description">
+                            A gentle daily cleanser that leaves skin feeling fresh and comfortable.
+                        </p>
+                        <p class="product-price">R159.99</p>
+                        <button type="button" aria-label="Add Gentle Facial Cleanser to cart">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="product-card" data-id="2" data-name="Hydrating Face Moisturiser" data-price="219.99">
+                        <img src="images/Hydrating Face Moisturiser.jpg" alt="Hydrating Face Moisturiser" class="product-image">
+                        <h3>Hydrating Face Moisturiser</h3>
+                        <p class="product-description">
+                            Helps keep skin soft, nourished and hydrated.
+                        </p>
+                        <p class="product-price">R219.99</p>
+                        <button type="button" aria-label="Add Hydrating Face Moisturiser to cart">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="product-card" data-id="3" data-name="Vitamin C Brightening Serum" data-price="189.99">
+                        <img src="images/Brightening Serum.jpg" alt="Vitamin C Brightening Serum" class="product-image">
+                        <h3>Vitamin C Brightening Serum</h3>
+                        <p class="product-description">
+                            A lightweight serum for brighter, radiant-looking skin.
+                        </p>
+                        <p class="product-price">R189.99</p>
+                        <button type="button" aria-label="Add Vitamin C Brightening Serum to cart">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="product-card" data-id="4" data-name="ARÉNIA Sun Protection SPF 50" data-price="199.99">
+                        <img src="images/Sun Protection SPF 50.jpg" alt="ARÉNIA Sun Protection SPF 50" class="product-image">
+                        <h3>ARÉNIA Sun Protection SPF 50</h3>
+                        <p class="product-description">
+                            Daily sun protection to help shield skin from UV rays.
+                        </p>
+                        <p class="product-price">R199.99</p>
+                        <button type="button" aria-label="Add ARÉNIA Sun Protection SPF 50 to cart">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="cart" id="cart">
+                <h2>Your Shopping Cart</h2>
+                <p class="cart-intro">ARÉNIA essentials.</p>
+
+                <div class="cart-container">
+
+                    <div class="cart-items">
+                        <!-- Cart products will appear here -->
+                    </div>
+
+                    <div class="cart-summary">
+                        <h3>Order Summary</h3>
+                        <div class="summary-details">
+                            <p>Subtotal: <span id="subtotal">R0.00</span></p>
+                            <p>Shipping: <span id="shipping">R0.00</span></p>
+                            <h3>Total: <span id="total">R0.00</span></h3>
+                        </div>
+                        <button type="button" class="checkout-button">Continue to Checkout</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="checkout" id="checkout">
+                <h2>Checkout</h2>
+                <p class="checkout-intro">Enter your details to complete your order.</p>
+
+                <div class="checkout-container">
+                    <form id="checkout-form">
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Delivery Address</label>
+                            <textarea id="address" name="address" rows="4" autocomplete="street-address" required></textarea>
+                        </div>
+
+                        <button type="submit" class="place-order-button">
+                            Place Order
+                        </button>
+                    </form>
+                </div>
+            </section>
+            
+            <section class="orders" id="orders">
+                <h2>Your Orders</h2>
+                <p class="orders-intro">View recent customer orders and track their status.</p>
+
+                <div class="orders-container">
+                    <div class="order-list">
+                        <!-- Orders will appear here -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-brand">
+                    <h2>ARÉNIA</h2>
+                    <p>Thoughtful skincare for everyday care, confidence and natural radiance.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#cart">Cart</a>
+                </div>
+
+                <div class="footer-care">
+                    <h3>Our Promise</h3>
+                    <p>Simple routines. Thoughtful ingredients. Everyday care.</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ARÉNIA. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
