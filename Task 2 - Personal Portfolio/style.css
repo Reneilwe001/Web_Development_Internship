@@ -55,6 +55,27 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
+.home-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .home-content {
+        text-align: left;
+    }
+
+    .home-image img {
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #53677D;
+    }
+
 #home h1 {
     font-size: 40px;
     color: #53677D;
@@ -395,6 +416,25 @@ nav ul li a:hover {
 
     #home p {
         font-size: 16px;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .home-content {
+        text-align: center;
+    }
+
+    .home-image {
+        flex: 0 0 auto;
+    }
+
+    .home-image img {
+        width: 180px;
+        height: 180px;
     }
 
     #about {
