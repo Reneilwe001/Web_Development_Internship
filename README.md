@@ -5,21 +5,25 @@ This repository contains four projects completed as part of my Web Development I
 ## Projects
 
 ### Task 1: Responsive Landing Page
+
 A responsive landing page designed to provide a clean and user-friendly experience across desktop and mobile devices.
 
 **Technologies:** HTML, CSS, JavaScript
 
 ### Task 2: Personal Portfolio
+
 A personal portfolio website showcasing my background, skills, projects, and contact information.
 
 **Technologies:** HTML, CSS, JavaScript
 
 ### Task 4: Online Quiz Application
+
 An interactive quiz application that allows users to answer questions, receive feedback, and view their final results.
 
 **Technologies:** HTML, CSS, JavaScript
 
 ### Task 5: E-Commerce Website
+
 An e-commerce website for a skincare brand featuring product listings, categories, a shopping cart, checkout, and order management functionality.
 
 **Technologies:** HTML, CSS, JavaScript
@@ -44,3 +48,15 @@ To view a project locally:
 ## Author
 
 **Reneilwe Gwangwa**
+
+## Internship Submission
+
+This repository contains the source code for all four completed internship projects.
+
+**Submission includes:**
+
+- Project source code.
+- Screenshots of completed tasks (desktop and mobile).
+- GitHub repository for project access.
+
+**Note:** The project demonstration video has not been included, as it is optional.
