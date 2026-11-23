@@ -101,6 +101,65 @@ nav ul li a:hover {
     margin: 0 auto 15px;
 }
 
+/* Experience Section */
+#experience {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+#experience h2 {
+    color: #53677D;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-card {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.experience-card h3 {
+    color: #53677D;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.job {
+    margin-bottom: 30px;
+}
+
+.job h4 {
+    color: #53677D;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.job-duration {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job li {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+.technologies {
+    color: #53677D;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 /* Skills Section */
 #skills {
     text-align: center;
@@ -195,6 +254,71 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
+/* Certifications Section */
+#certifications {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+#certifications h2 {
+    color: #53677D;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#certifications > p {
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.certification-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 350px));
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.certification-card {
+    background-color: #F5F3F7;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(83, 103, 125, 0.15);
+}
+
+.certification-card h3 {
+    color: #53677D;
+    font-size: 22px;
+}
+
+.certification-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.certification-card a {
+    display: inline-block;
+    background-color: #53677D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.certification-card a:hover {
+    background-color: #3F5063;
+    transform: translateY(-3px);
+}
+
 /* Contact Section */
 #contact {
     text-align: center;
@@ -285,6 +409,30 @@ nav ul li a:hover {
         font-size: 16px;
     }
 
+    #experience {
+        padding: 50px 15px;
+    }
+
+    #experience h2 {
+        font-size: 26px;
+    }
+
+    .experience-card {
+        padding: 20px;
+    }
+
+    .experience-card h3 {
+        font-size: 21px;
+    }
+
+    .job h4 {
+        font-size: 18px;
+    }
+
+    .job li {
+        font-size: 15px;
+    }
+
     #skills {
         padding: 50px 15px;
     }
@@ -318,6 +466,26 @@ nav ul li a:hover {
     }
 
     .project-card {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #certifications {
+        padding: 50px 15px;
+    }
+
+    #certifications h2 {
+        font-size: 26px;
+    }
+
+    .certification-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .certification-card {
         width: 100%;
         min-width: 0;
     }
